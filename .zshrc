@@ -10,8 +10,11 @@ antigen use oh-my-zsh
 # Bundles from the default repo (robbyrussell's oh-my-zsh).
 antigen bundle git # Lots of git aliases
 antigen bundle history # aliases for showing and searching history
+antigen bundle osx
 
-# Syntax highlighting bundle.
+antigen bundle robbyrussell/oh-my-zsh
+antigen bundle zsh-users/zsh-autosuggestions
+antigen bundle zsh-users/zsh-completions
 antigen bundle zsh-users/zsh-syntax-highlighting
 
 # Load the theme.
