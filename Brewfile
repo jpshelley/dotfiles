@@ -4,6 +4,7 @@ tap 'caskroom/versions'
 brew 'node'
 
 cask 'atom'
+cask 'evernote'
 cask 'firefox'
 cask 'github-beta'
 cask 'google-chrome'
