@@ -4,6 +4,9 @@ Symlink the zshrc file to home directory
 
 Uses Antigen as a utility helper
 
+### .macos
+Make this file executable and run it. It will set a bunch of mac defaults like: three-finger drag, control modifier to zoom, tap to click, etc.
+
 ### Terminal
 
 Theme --> https://github.com/nathanbuchar/atom-one-dark-terminal
