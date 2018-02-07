@@ -4,6 +4,10 @@ Symlink the zshrc file to home directory
 
 Uses Antigen as a utility helper
 
+### .vimrc
+## Not Working - need to fix
+Symlink the vimrc file to home directory
+
 ### .macos
 Make this file executable and run it. It will set a bunch of mac defaults like: three-finger drag, control modifier to zoom, tap to click, etc.
 
