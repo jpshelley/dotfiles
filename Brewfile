@@ -2,8 +2,10 @@ tap 'homebrew/bundle'
 tap 'caskroom/versions'
 
 brew 'node'
+brew 'rbenv'
 
 cask 'atom'
+cask 'dotnet-sdk'
 cask 'evernote'
 cask 'firefox'
 cask 'github-beta'
