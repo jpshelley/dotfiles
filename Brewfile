@@ -12,6 +12,9 @@ cask 'github-beta'
 cask 'google-chrome'
 cask 'google-backup-and-sync' # Personal gdrive
 cask 'google-drive-file-stream' # Work gdrive
+cask 'jadengeller-helium'
+cask 'postman'
+cask 'reactotron'
 cask 'slack'
 cask 'spotify'
 cask 'steam'
