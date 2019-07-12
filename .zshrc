@@ -1,8 +1,9 @@
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
+export TERM="xterm-256color"
 
 # Load antigen (zsh package manager)
-source ~/Applications/antigen/antigen.zsh
+source /usr/local/share/antigen/antigen.zsh
 
 # Load the oh-my-zsh's library.
 antigen use oh-my-zsh
@@ -17,11 +18,15 @@ antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle zsh-users/zsh-completions
 antigen bundle zsh-users/zsh-syntax-highlighting
 
+# Pure Theme doesn't use the theme function
+antigen bundle mafredri/zsh-async
+antigen bundle sindresorhus/pure
+
 # Load the theme.
 # antigen theme funky
 # antigen theme pygmalion
 # antigen theme bira
-antigen theme agnoster
+# antigen theme agnoster
 # antigen theme avit
 # antigen theme junkfood
 # antigen theme ys

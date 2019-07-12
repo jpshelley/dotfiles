@@ -1,8 +1,19 @@
+### Brew
+
+Run `brew bundle` from this directory to install brew items.
+_See: https://robots.thoughtbot.com/brewfile-a-gemfile-but-for-homebrew_
+
 ### ZSH
 
-Symlink the zshrc file to home directory
+The brewfile should have installed zsh. We now need to change our shell to use it:
+`sudo dscl . -create /Users/$USER UserShell /usr/local/bin/zsh`
 
-Uses Antigen as a utility helper
+Next symlink the zshrc file to our home directory:
+`ln -s /Users/john.shelley/Developer/dotfiles/.zshrc ~/.zshrc`
+
+Quit terminal and reopen
+
+The zshrc uses Antigen as a utility helper and will setup a lot of cool stuff!
 
 ### .vimrc
 ## Not Working - need to fix
@@ -14,12 +25,6 @@ Make this file executable and run it. It will set a bunch of mac defaults like: 
 ### Terminal
 
 Theme --> https://github.com/nathanbuchar/atom-one-dark-terminal
-
-
-### Brew
-
-Run `brew bundle` from this directory to install brew items.
-_See: https://robots.thoughtbot.com/brewfile-a-gemfile-but-for-homebrew_
 
 ### Github
 
