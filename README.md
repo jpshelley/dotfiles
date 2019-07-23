@@ -29,3 +29,7 @@ Theme --> https://github.com/nathanbuchar/atom-one-dark-terminal
 ### Github
 
 Make sure to setup github by generating new ssh keys and access tokens for terminal access if using 2 factor auth! (Maybe we can automate this some day)
+
+### HLS
+
+If necessary, download the HLS validator tools from here manually https://developer.apple.com/download/more/?=HLS
