@@ -14,7 +14,8 @@ cask 'github'
 cask 'google-chrome'
 cask 'google-backup-and-sync' # Personal gdrive
 cask 'google-drive-file-stream' # Work gdrive
-cask 'iexplorer' 
+cask 'iexplorer'
+cask 'pocket-casts' 
 cask 'postman'
 cask 'pycharm-ce'
 cask 'slack'
