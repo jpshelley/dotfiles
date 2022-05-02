@@ -1,5 +1,5 @@
 tap 'homebrew/bundle'
-tap 'caskroom/versions'
+tap 'homebrew/cask-versions'
 
 brew 'antigen'
 brew 'node'
